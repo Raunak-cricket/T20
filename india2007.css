@@ -1,0 +1,122 @@
+/* Base Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+/* Navbar Styling */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: linear-gradient(90deg, #0c1b33, #1d3b6f);
+  padding: 15px 30px;
+  color: white;
+  flex-wrap: wrap;
+}
+
+.logo {
+  font-size: 28px;
+  font-weight: bold;
+  color: #ffffff;
+  font-family: 'Georgia', serif;
+}
+
+.title-section {
+  text-align: right;
+}
+
+.main-heading {
+  font-size: 22px;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.tagline {
+  font-size: 14px;
+  color: #ddd;
+  margin-top: 5px;
+}
+
+.mnheading {
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Scorecard Styling */
+.scorecard {
+  background-color: #ffffff;
+  border: 1px solid blue;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 30px auto;
+  max-width: 900px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.scorecard h2 {
+  color: #0c1b33;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.scorecard h3 {
+  margin-top: 25px;
+  color: #1d3b6f;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 5px;
+}
+
+.scorecard p {
+  margin: 5px 0;
+  font-size: 14px;
+}
+
+.scorecard-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 15px 0 30px 0;
+}
+
+.scorecard-table th,
+.scorecard-table td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.scorecard-table th {
+  background-color: #e6f0ff;
+  font-weight: bold;
+  color: #0c1b33;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .scorecard {
+    padding: 15px;
+  }
+
+  .scorecard-table th,
+  .scorecard-table td {
+    font-size: 12px;
+    padding: 6px;
+  }
+
+  .main-heading {
+    font-size: 18px;
+  }
+
+  .logo {
+    font-size: 22px;
+  }
+}
